@@ -56,7 +56,7 @@ header {
 .nav-item {
     position: relative;
     display: block;
-    margin-right: 35px;
+    margin-right: 10px;
 }
 .nav-item a:hover {
     color: var(--text-color-red);
@@ -334,7 +334,8 @@ footer {
     .header-nav__responsive {
         position: absolute;
         top: 90px;
-        min-width: 103%;
+        left: 0;
+        min-width: 100%;
         padding-right: 0;
     }
     .nav-item a::before {
@@ -372,6 +373,7 @@ footer {
 @media (min-width: 992px) and (max-width: 1023px) {
     header {
         padding: 0 !important;
+        max-width: 100%;
     }
     .container {
         max-width: 100%;
