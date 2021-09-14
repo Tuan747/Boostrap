@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg stick-top">
-        <div class="container header-nav">
+    <header class="navbar navbar-expand-lg">
+        <div class="container">
             <div class="row justify-content-between align-items-center" style="width: 100%">
                 <div class="col-2 col-sm-2 col-md-2 col-lg-2">
                     <a href="#">
@@ -27,7 +27,7 @@
                     </button>
                 </div>
                 <div class="col-10 col-sm-10 col-md-10 col-lg-10 header-nav__responsive">
-                    <div class="collapse navbar-collapse header-nav__show" id="navbarResponsive">
+                    <div class="collapse navbar-collapse header-nav__responsive--show" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
                                 <a href="#" class="nav-link active-nav">Trang chủ</a>
@@ -88,8 +88,8 @@
             </div>
         </div>
     </section>
-    <section class="digital">
-        <div class="container digital-studio">
+    <section class="container digital">
+        <div class="digital-studio">
             <div class="row digital-studio__list">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 digital-list">
                     <div class="digital-list__item--sub-title">Digital Creative Studio</div>
@@ -110,137 +110,132 @@
             </div>
         </div>
     </section>
-    <section class="culture">
-        <div class="container">
-            <div id="carousel-slide" class="carousel slide carousel-multi-item" data-ride="carousel">
-                <div class="row controls-top culture-top">
-                    <div class="col-10 col-sm-10 col-md-10 col-lg-10">
-                        <h2>Văn hóa - Sự kiện</h2>
-                    </div>
-                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 culture-top__override">
-                        <a class="btn-floating" href="#carousel-slide" data-slide="prev">
-                            <i class="fa fa-chevron-left"></i>
-                        </a>
-                    </div>
-                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 culture-top__override">
-                        <a class="btn-floating" href="#carousel-slide" data-slide="next">
-                            <i class="fa fa-chevron-right"></i>
-                        </a>
-                    </div>
+    <section class="container culture">
+        <div id="carousel-slide" class="carousel slide carousel-multi-item" data-ride="carousel">
+            <div class="row controls-top culture-top">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10">
+                    <h2>Văn hóa - Sự kiện</h2>
                 </div>
-                <div class="carousel-inner" role="listbox">
-                    <!--1st-->
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="card">
-                                    <img class="card-img" src="./img/slide-1.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title"> Sun* Charity Đà Nẵng: Mang xuân về trên Nóc Tu Gia
-                                        </h4>
-                                        <p class="card-text">Tiếp nối chiến dịch "Toàn Sun* hướng về Miền Trung",
-                                            sáng
-                                            ngày 23/01, CLB Charity Sun* Đà Nẵng - Đại diện công ty đã mang theo
-                                            "mùa
-                                            xuân" của người nhà Sun* đến với trẻ em và các hộ gia đình khó khăn sau
-                                            hậu
-                                            quả của cơn lũ lịch sử vừa qua, thuộc Thôn 2 Nóc Tu Gia, xã Trà Tập,
-                                            huyện
-                                            Nam Trà My, tỉnh Quảng Nam.</p>
-                                        <a class="btn">Xem chi tiết</a>
-                                    </div>
+                <div class="col-1 col-sm-1 col-md-1 col-lg-1 culture-top__override">
+                    <a class="btn-floating" href="#carousel-slide" data-slide="prev">
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
+                </div>
+                <div class="col-1 col-sm-1 col-md-1 col-lg-1 culture-top__override">
+                    <a class="btn-floating" href="#carousel-slide" data-slide="next">
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-inner" role="listbox">
+                <!--1st-->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <img class="card-img" src="./img/slide-1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Sun* Charity Đà Nẵng: Mang xuân về trên Nóc Tu Gia
+                                    </h4>
+                                    <p class="card-text">Tiếp nối chiến dịch "Toàn Sun* hướng về Miền Trung",
+                                        sáng
+                                        ngày 23/01, CLB Charity Sun* Đà Nẵng - Đại diện công ty đã mang theo
+                                        "mùa
+                                        xuân" của người nhà Sun* đến với trẻ em và các hộ gia đình khó khăn sau
+                                        hậu
+                                        quả của cơn lũ lịch sử vừa qua, thuộc Thôn 2 Nóc Tu Gia, xã Trà Tập,
+                                        huyện
+                                        Nam Trà My, tỉnh Quảng Nam.</p>
+                                    <a class="btn">Xem chi tiết</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 clearfix d-none d-md-block d-lg-block">
-                                <div class="card">
-                                    <img class="card-img" src="./img/slide-1.1.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title"> Đột nhập lớp học tiếng Nhật "thầy Nam": Toàn học
-                                            viên
-                                            xinh, chất lượng cực đỉnh! </h4>
-                                        <p class="card-text">Như một nét chấm phá đặc biệt trong phong trào học tập
-                                            sôi
-                                            nổi, lớp học Tiếng Nhật miễn phí dành cho dân "đánh án" tại Sun* đã diễn
-                                            ra
-                                            được nhiều tháng nay, và nhận được sự hưởng ứng nhiệt tình từ các
-                                            Sunners
-                                            thuộc nhiều vị trí công việc trong công ty.</p>
-                                        <a class="btn">Xem chi tiết</a>
-                                    </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 clearfix d-none d-md-block d-lg-block">
+                            <div class="card">
+                                <img class="card-img" src="./img/slide-1.1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Đột nhập lớp học tiếng Nhật "thầy Nam": Toàn học
+                                        viên
+                                        xinh, chất lượng cực đỉnh! </h4>
+                                    <p class="card-text">Như một nét chấm phá đặc biệt trong phong trào học tập
+                                        sôi
+                                        nổi, lớp học Tiếng Nhật miễn phí dành cho dân "đánh án" tại Sun* đã diễn
+                                        ra
+                                        được nhiều tháng nay, và nhận được sự hưởng ứng nhiệt tình từ các
+                                        Sunners
+                                        thuộc nhiều vị trí công việc trong công ty.</p>
+                                    <a class="btn">Xem chi tiết</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 clearfix d-none d-md-block d-lg-block">
-                                <div class="card">
-                                    <img class="card-img" src="./img/slide-1.2.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title"> Khóa học luyện thi PMI-ACP đầu tiên tại Sun* có gì
-                                            đặc
-                                            biệt? </h4>
-                                        <p class="card-text">Khai giảng từ tháng 09/2020, khóa học luyện thi chứng
-                                            chỉ
-                                            PMI-ACP đầu tiên tại Sun* đã hạ cánh thành công rực rỡ, để lại nhiều ấn
-                                            tượng với học viên của Sun*</p>
-                                        <a class="btn">Xem chi tiết</a>
-                                    </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 clearfix d-none d-md-block d-lg-block">
+                            <div class="card">
+                                <img class="card-img" src="./img/slide-1.2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Khóa học luyện thi PMI-ACP đầu tiên tại Sun* có gì
+                                        đặc
+                                        biệt? </h4>
+                                    <p class="card-text">Khai giảng từ tháng 09/2020, khóa học luyện thi chứng
+                                        chỉ
+                                        PMI-ACP đầu tiên tại Sun* đã hạ cánh thành công rực rỡ, để lại nhiều ấn
+                                        tượng với học viên của Sun*</p>
+                                    <a class="btn">Xem chi tiết</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--2st-->
-                    <div class="carousel-item">
-
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                                <div class="card">
-                                    <img class="card-img" src="./img/slide-2.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title"> Đột nhập lớp học tiếng Nhật "thầy Nam": Toàn học
-                                            viên
-                                            xinh, chất lượng cực đỉnh! </h4>
-                                        <p class="card-text">Như một nét chấm phá đặc biệt trong phong trào học tập
-                                            sôi
-                                            nổi, lớp học Tiếng Nhật miễn phí dành cho dân "đánh án" tại Sun* đã diễn
-                                            ra
-                                            được nhiều tháng nay, và nhận được sự hưởng ứng nhiệt tình từ các
-                                            Sunners
-                                            thuộc nhiều vị trí công việc trong công ty.</p>
-                                        <a class="btn">Xem chi tiết</a>
-                                    </div>
+                </div>
+                <!--2st-->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <img class="card-img" src="./img/slide-2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Đột nhập lớp học tiếng Nhật "thầy Nam": Toàn học
+                                        viên
+                                        xinh, chất lượng cực đỉnh! </h4>
+                                    <p class="card-text">Như một nét chấm phá đặc biệt trong phong trào học tập
+                                        sôi
+                                        nổi, lớp học Tiếng Nhật miễn phí dành cho dân "đánh án" tại Sun* đã diễn
+                                        ra
+                                        được nhiều tháng nay, và nhận được sự hưởng ứng nhiệt tình từ các
+                                        Sunners
+                                        thuộc nhiều vị trí công việc trong công ty.</p>
+                                    <a class="btn">Xem chi tiết</a>
                                 </div>
                             </div>
-
-                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 clearfix d-none d-md-block d-lg-block">
-                                <div class="card">
-                                    <img class="card-img" src="./img/slide-2.1.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title"> Shorten link của người Sun* đã có phiên bản mới, gây
-                                            ấn
-                                            tượng vì "quá đỉnh" </h4>
-                                        <p class="card-text">"Shorten link của người Sun* đã tái sinh để vươn xa
-                                            hơn,
-                                            phát triển mạnh mẽ hơn. Con số 250 user mới chỉ sau 24 giờ release là 1
-                                            tín
-                                            hiệu đáng mừng để chứng minh điều đó."</p>
-                                        <a class="btn">Xem chi tiết</a>
-                                    </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 clearfix d-none d-md-block d-lg-block">
+                            <div class="card">
+                                <img class="card-img" src="./img/slide-2.1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Shorten link của người Sun* đã có phiên bản mới, gây
+                                        ấn
+                                        tượng vì "quá đỉnh" </h4>
+                                    <p class="card-text">"Shorten link của người Sun* đã tái sinh để vươn xa
+                                        hơn,
+                                        phát triển mạnh mẽ hơn. Con số 250 user mới chỉ sau 24 giờ release là 1
+                                        tín
+                                        hiệu đáng mừng để chứng minh điều đó."</p>
+                                    <a class="btn">Xem chi tiết</a>
                                 </div>
                             </div>
-
-                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 clearfix d-none d-md-block d-lg-block">
-                                <div class="card">
-                                    <img class="card-img" src="./img/slide-2.2.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title"> Anh em Tobogan và lời thách đấu toàn Sun*: "Siêu trí
-                                            tuệ
-                                            Việt Nam, chưa chắc giải được hết game này" </h4>
-                                        <p class="card-text">Trong khi chúng ta hùng hục code, test...thì ở Sun*, có
-                                            những người lại “cày” game ngày đêm, lại còn thách thức đồng nghiệp,
-                                            không
-                                            hiểu kiểu gì?</p>
-                                        <a class="btn">Xem chi tiết</a>
-                                    </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 clearfix d-none d-md-block d-lg-block">
+                            <div class="card">
+                                <img class="card-img" src="./img/slide-2.2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Anh em Tobogan và lời thách đấu toàn Sun*: "Siêu trí
+                                        tuệ
+                                        Việt Nam, chưa chắc giải được hết game này" </h4>
+                                    <p class="card-text">Trong khi chúng ta hùng hục code, test...thì ở Sun*, có
+                                        những người lại “cày” game ngày đêm, lại còn thách thức đồng nghiệp,
+                                        không
+                                        hiểu kiểu gì?</p>
+                                    <a class="btn">Xem chi tiết</a>
                                 </div>
                             </div>
                         </div>
