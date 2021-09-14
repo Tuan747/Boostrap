@@ -58,19 +58,19 @@ header {
     display: block;
     margin-right: 10px;
 }
-.nav-item a:hover {
+.nav-item .nav-link:hover {
     color: var(--text-color-red);
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 0;
     padding-right: 0;
 }
-.nav-item a {
+.nav-item .nav-link {
     font-size: var(--font-size-xl);
     color: var(--text-color-main);
     padding: 25px 0;
 }
-.nav-item a::before {
+.nav-item .nav-link::before {
     transition: ease-in 0.2s;
     content: "";
     width: 60%;
@@ -82,7 +82,7 @@ header {
     border-radius: 5px;
     position: absolute;
 }
-.nav-item a:hover::before {
+.nav-item .nav-link:hover::before {
     top: -15px;
 }
 .nav-item .active-nav:before {
@@ -338,7 +338,7 @@ footer {
         min-width: 100%;
         padding: 0px;
     }
-    .nav-item a::before {
+    .nav-item .nav-link::before {
         display: none;
     }
     .digital-list {
@@ -385,10 +385,10 @@ footer {
     .nav-item {
         margin-right: 15px;
     }
-    .nav-item a {
+    .nav-item .nav-link {
         font-size: var(--font-size-l);
     }
-    .nav-item a::before {
+    .nav-item .nav-link::before {
         display: block;
         top: -38%;
     }
